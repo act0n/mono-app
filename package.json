@@ -1,18 +1,25 @@
 {
-	"name": "mono-app",
-	"version": "0.0.1",
-	"description": "This is a demo app for building monorepo",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"engines": {
-		"node": ">=16",
-		"pnpm": ">=3"
-	},
-	"keywords": [],
-	"author": {
-		"name": "acton",
-		"email": "acton8.wang@gmail.com"
-	},
-	"license": "ISC"
+  "name": "mono-app",
+  "version": "0.0.1",
+  "description": "This is a demo app for building monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git cz"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=3"
+  },
+  "keywords": [],
+  "author": {
+    "name": "acton",
+    "email": "acton8.wang@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "17",
+    "@commitlint/config-conventional": "17",
+    "commitizen": "4",
+    "cz-customizable": "7"
+  }
 }
