@@ -28,6 +28,7 @@ module.exports = {
 
   // it needs to match the value for field type. Eg.: 'fix'
   scopeOverrides: {
+    feat: [{ name: 'new feature' }, { name: 'build' }],
     fix: [{ name: 'merge' }, { name: 'style' }, { name: 'e2eTest' }, { name: 'unitTest' }]
   },
   // override the messages, defaults are as follows
